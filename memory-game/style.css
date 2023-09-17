@@ -1,0 +1,68 @@
+
+
+body
+{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+h1
+{
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  font-size: 3em;
+  color: blue;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+
+}
+
+.start
+{
+  padding: 15px 20px;
+  color: blue;
+  background: lightblue;
+  border: none;
+  font-size: 1.5;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.reset
+{
+  padding: 15px 20px;
+  color:blue;
+  background: lightblue;
+  border: none;
+  font-size: 1.5;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:focus
+{
+  color: blue;
+  background: lightblue;
+}
+
+
+#game div
+{
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  border: 1px solid black;
+  display: inline-block;
+}
+ 
+
+
+
+
+
